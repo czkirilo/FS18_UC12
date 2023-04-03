@@ -1,0 +1,15 @@
+C:\Users\Caique_Zaneti\Documents\GitHub\FS18_UC12\Sistema_UC12\bin\Debug\net7.0\Sistema_UC12.exe
+C:\Users\Caique_Zaneti\Documents\GitHub\FS18_UC12\Sistema_UC12\bin\Debug\net7.0\Sistema_UC12.deps.json
+C:\Users\Caique_Zaneti\Documents\GitHub\FS18_UC12\Sistema_UC12\bin\Debug\net7.0\Sistema_UC12.runtimeconfig.json
+C:\Users\Caique_Zaneti\Documents\GitHub\FS18_UC12\Sistema_UC12\bin\Debug\net7.0\Sistema_UC12.dll
+C:\Users\Caique_Zaneti\Documents\GitHub\FS18_UC12\Sistema_UC12\bin\Debug\net7.0\Sistema_UC12.pdb
+C:\Users\Caique_Zaneti\Documents\GitHub\FS18_UC12\Sistema_UC12\obj\Debug\net7.0\Sistema_UC12.csproj.AssemblyReference.cache
+C:\Users\Caique_Zaneti\Documents\GitHub\FS18_UC12\Sistema_UC12\obj\Debug\net7.0\Sistema_UC12.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Caique_Zaneti\Documents\GitHub\FS18_UC12\Sistema_UC12\obj\Debug\net7.0\Sistema_UC12.AssemblyInfoInputs.cache
+C:\Users\Caique_Zaneti\Documents\GitHub\FS18_UC12\Sistema_UC12\obj\Debug\net7.0\Sistema_UC12.AssemblyInfo.cs
+C:\Users\Caique_Zaneti\Documents\GitHub\FS18_UC12\Sistema_UC12\obj\Debug\net7.0\Sistema_UC12.csproj.CoreCompileInputs.cache
+C:\Users\Caique_Zaneti\Documents\GitHub\FS18_UC12\Sistema_UC12\obj\Debug\net7.0\Sistema_UC12.dll
+C:\Users\Caique_Zaneti\Documents\GitHub\FS18_UC12\Sistema_UC12\obj\Debug\net7.0\refint\Sistema_UC12.dll
+C:\Users\Caique_Zaneti\Documents\GitHub\FS18_UC12\Sistema_UC12\obj\Debug\net7.0\Sistema_UC12.pdb
+C:\Users\Caique_Zaneti\Documents\GitHub\FS18_UC12\Sistema_UC12\obj\Debug\net7.0\Sistema_UC12.genruntimeconfig.cache
+C:\Users\Caique_Zaneti\Documents\GitHub\FS18_UC12\Sistema_UC12\obj\Debug\net7.0\ref\Sistema_UC12.dll
