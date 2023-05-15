@@ -126,27 +126,50 @@ switch (opcaoPF){
       Console.WriteLine("Digite o nome da pessoa física que deseja cadastrar");
       novapf.nome = Console.ReadLine();
 
-      listaPf.Add(novapf);
+      //listaPf.Add(novapf);
+
+      //StreamWriter sw = new StreamWriter($"{novapf.nome}.txt");
+      //sw.WriteLine(novapf.nome);
+      //sw.WriteLine(novapf.dataNascimento);
+      //sw.Close();
+      
+      using (StreamWriter sw = new StreamWriter($"{novapf.nome}.txt")){
+      sw.WriteLine(novapf.nome);
+      sw.WriteLine(novapf.dataNascimento);
+      }
+
       Console.WriteLine("cadastro efetuado com sucesso");
       Thread.Sleep(4000);
         break;
     case "2":
-    Console.Clear();
-    if (listaPf.Count > 0){
-        foreach(PessoaFisica cadaPessoa in listaPf){
-            Console.Clear();
-            Console.WriteLine(@$"
-            Nome: {cadaPessoa.nome}
-            Endereco: {cadaPessoa.endereco.logradouro}, {cadaPessoa.endereco.numero}
-            Data de Nascimento: {cadaPessoa.dataNascimento}
-            ");
-        Console.WriteLine("Digite qualquer tecla para continuar");
-        Console.ReadLine();
+    Console.WriteLine("Digite o nome da pessoa que deseja buscar as informações");
+    string registro = Console.ReadLine();
+
+    using (StreamReader sr = new StreamReader($"{registro}.txt")){
+        string linha;
+        while ((linha = sr.ReadLine()) != null){
+            Console.WriteLine($"{linha}");
         }
-    }else{
-        Console.WriteLine("Lista Vazia!!! Digite qualquer tecla para continuar");
-        Console.ReadLine();
     }
+    Console.WriteLine("Aperte qualquer tecla para continuar");
+    Console.ReadLine();
+
+    // Console.Clear();
+    // if (listaPf.Count > 0){
+    //     foreach(PessoaFisica cadaPessoa in listaPf){
+    //         Console.Clear();
+    //         Console.WriteLine(@$"
+    //         Nome: {cadaPessoa.nome}
+    //         Endereco: {cadaPessoa.endereco.logradouro}, {cadaPessoa.endereco.numero}
+    //         Data de Nascimento: {cadaPessoa.dataNascimento}
+    //         ");
+    //     Console.WriteLine("Digite qualquer tecla para continuar");
+    //     Console.ReadLine();
+    //     }
+    // }else{
+    //     Console.WriteLine("Lista Vazia!!! Digite qualquer tecla para continuar");
+    //     Console.ReadLine();
+    // }
         break;
     case "0":
         break;
